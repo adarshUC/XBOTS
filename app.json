@@ -1,6 +1,6 @@
 {
-    "name": "AXEN HERE.",
-    "logo": "https://te.legra.ph/file/07d39b85c6cea32f15259.jpg",
+    "name": "T34M XD",
+    "logo": "https://telegra.ph/file/42faa203c4cc7c42c293d.jpg",
     "keywords": [
         "telegram",
         "telethon",
@@ -18,72 +18,72 @@
       "BOT_TOKEN2": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
         "value": "",
-        "required": true
+        "required": false
       },
       "BOT_TOKEN3": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
         "value": "",
-        "required": true
+        "required": false
       },
       "BOT_TOKEN4": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
         "value": "",
-        "required": true
+        "required": false
       },
       "BOT_TOKEN5": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
         "value": "",
-        "required": true
+        "required": false
       },
       "BOT_TOKEN6": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
         "value": "",
-        "required": true
+        "required": false
       },
       "BOT_TOKEN7": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
         "value": "",
-        "required": true
+        "required": false
       },
       "BOT_TOKEN8": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
         "value": "",
-        "required": true
+        "required": false
       },
       "BOT_TOKEN9": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
         "value": "",
-        "required": true
+        "required": false
       },
       "BOT_TOKEN10": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
         "value": "",
-        "required": true
+        "required": false
       },
       "CMD_HNDLR": {
         "description": "Custom command handler.",
-        "value": ".",
-        "required": false
+        "value": "/",
+        "required": true
       },
       "SUDO_USERS": {
         "description": "Sudo users id space by space",
-        "value": "",
+        "value": "1153171536 6170423996",
         "required": false
       },
       "OWNER_ID": {
         "description": "Owner Id",
-        "value": "",
+        "value": "1153171536",
         "required": true
       },
       "HEROKU_API_KEY": {
         "description": "Your Heroku api key to update your bot",
         "value": "",
-        "required": false 
+        "required": true 
       },
       "HEROKU_APP_NAME": {
         "description": "Your app name to Update your bot",
         "value": "",
-        "required": false  
+        "required": true  
       }
     },
   "buildpacks": [
