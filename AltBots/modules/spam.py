@@ -78,8 +78,7 @@ async def spam(event: events):
 @X10.on(events.NewMessage(incoming=True, pattern=r"\%spspam(?: |$)(.*)" % hl))
 async def pspam(event):
     if event.sender_id in SUDO_USERS:
-
-if event.chat_id in GROUP:
+        if event.chat_id in GROUP:
             await event.reply("» ʟᴏʟ, ᴛʜɪꜱ ɪꜱ ᴛᴇᴀᴍ 𓆩𝗫𝗗𓆪 ᴘʀᴏᴛᴇᴄᴛᴇᴅ ɢʀᴏᴜᴘ.")
         else:
             try:
